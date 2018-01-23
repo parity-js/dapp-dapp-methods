@@ -1,3 +1,1 @@
-# dapp-dapp-methods
-
-Manage methods available to dapps
+ 2.0.12 (20180123-123306)
