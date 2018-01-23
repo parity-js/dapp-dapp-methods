@@ -1,1 +1,3 @@
- 2.0.15 (20180123-124349)
+# dapp-dapp-methods
+
+Selection of methods available to dapps

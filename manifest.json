@@ -1,9 +1,9 @@
 {
-  "id": "dapp-dapp-methods",
-  "name": "Dapp Permissions",
-  "description": "Allow setting of dapp permissions on a per method level",
+  "id": "dapp-dapp-visible",
+  "name": "Browse Dapps",
+  "description": "Allow browsing through all the available dapps",
   "author": "Parity Team <admin@parity.io>",
-  "version": " 2.0.12",
+  "version": "VERSION",
   "iconUrl": "icon.png",
   "localUrl": "http://localhost:3001"
 }
