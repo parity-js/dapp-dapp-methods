@@ -3,7 +3,7 @@
   "name": "Dapp Permissions",
   "description": "Allow setting of dapp permissions on a per method level",
   "author": "Parity Team <admin@parity.io>",
-  "version": "VERSION",
+  "version": " 2.0.12",
   "iconUrl": "icon.png",
   "localUrl": "http://localhost:3001"
 }
