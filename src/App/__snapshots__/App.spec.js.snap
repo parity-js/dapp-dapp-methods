@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<Page
+  title={
+    <FormattedMessage
+      defaultMessage="Allowed methods"
+      id="dapps.methods.title"
+      values={Object {}}
+    />
+  }
+>
+  <CardGroup
+    stackable={true}
+  >
+    <inject-DappCard-with-dappsPermissionsStore
+      dapp={
+        Object {
+          "id": "123",
+          "name": "123",
+        }
+      }
+      editingMode={false}
+      key="123-0"
+      onEdit={[Function]}
+      onToggle={[Function]}
+    />
+    <inject-DappCard-with-dappsPermissionsStore
+      dapp={
+        Object {
+          "id": "456",
+          "name": "456",
+        }
+      }
+      editingMode={false}
+      key="456-1"
+      onEdit={[Function]}
+      onToggle={[Function]}
+    />
+  </CardGroup>
+</Page>
+`;
+
+exports[`should render correctly when a dapp is selected 1`] = `
+<Page
+  title={
+    <FormattedMessage
+      defaultMessage="Allowed methods"
+      id="dapps.methods.title"
+      values={Object {}}
+    />
+  }
+>
+  <CardGroup
+    stackable={true}
+  >
+    <inject-DappCard-with-dappsPermissionsStore
+      dapp={
+        Object {
+          "id": "123",
+          "name": "123",
+        }
+      }
+      editingMode={false}
+      key="123-0"
+      onEdit={[Function]}
+      onToggle={[Function]}
+    />
+    <inject-DappCard-with-dappsPermissionsStore
+      dapp={
+        Object {
+          "id": "456",
+          "name": "456",
+        }
+      }
+      editingMode={true}
+      key="456-1"
+      onEdit={[Function]}
+      onToggle={[Function]}
+    />
+  </CardGroup>
+</Page>
+`;

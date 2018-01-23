@@ -1,0 +1,898 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly in editing mode 1`] = `
+<Card>
+  <CardContent>
+    <Button
+      as="button"
+      basic={true}
+      floated="right"
+      icon="remove"
+      onClick={[Function]}
+      size="mini"
+    />
+    <DappIcon
+      app={
+        Object {
+          "id": "123",
+          "name": "Test",
+        }
+      }
+      className="ui image centered undefined"
+      raised={true}
+      size="small"
+    />
+    <CardHeader>
+      Test
+    </CardHeader>
+    <CardMeta />
+    <CardDescription>
+      <Accordion
+        panels={
+          Array [
+            Object {
+              "content": Object {
+                "active": true,
+                "content": <List
+                  className={undefined}
+          >
+                  <ListItem
+                          className={undefined}
+                          name="shell_loadApp"
+                          onClick={[Function]}
+                  >
+                          <ListIcon
+                                  name="checkmark box"
+                          />
+                          shell_loadApp
+                  </ListItem>
+          </List>,
+                "key": "123-shell-editing-content",
+              },
+              "title": Object {
+                "active": true,
+                "content": <FormattedMessage
+                  defaultMessage="Can get access to the Shell"
+                  description="Explanation of the shell methodGroup permission"
+                  id="dapp.methods.shell"
+                  values={Object {}}
+          />,
+                "key": "123-shell-editing-title",
+              },
+            },
+            Object {
+              "content": Object {
+                "active": true,
+                "content": <List
+                  className={undefined}
+          >
+                  <ListItem
+                          className={undefined}
+                          name="parity_dappsRefresh"
+                          onClick={[Function]}
+                  >
+                          <ListIcon
+                                  name="square outline"
+                          />
+                          parity_dappsRefresh
+                  </ListItem>
+                  <ListItem
+                          className={undefined}
+                          name="parity_dappsUrl"
+                          onClick={[Function]}
+                  >
+                          <ListIcon
+                                  name="square outline"
+                          />
+                          parity_dappsUrl
+                  </ListItem>
+                  <ListItem
+                          className={undefined}
+                          name="shell_getApps"
+                          onClick={[Function]}
+                  >
+                          <ListIcon
+                                  name="square outline"
+                          />
+                          shell_getApps
+                  </ListItem>
+                  <ListItem
+                          className={undefined}
+                          name="shell_getMethodPermissions"
+                          onClick={[Function]}
+                  >
+                          <ListIcon
+                                  name="square outline"
+                          />
+                          shell_getMethodPermissions
+                  </ListItem>
+          </List>,
+                "key": "123-dapps-editing-content",
+              },
+              "title": Object {
+                "active": true,
+                "content": <FormattedMessage
+                  defaultMessage="Can read info about dapps"
+                  description="Explanation of the dapps methodGroup permission"
+                  id="dapp.methods.dapps"
+                  values={Object {}}
+          />,
+                "key": "123-dapps-editing-title",
+              },
+            },
+            Object {
+              "content": Object {
+                "active": true,
+                "content": <List
+                  className={undefined}
+          >
+                  <ListItem
+                          className={undefined}
+                          name="shell_setAppPinned"
+                          onClick={[Function]}
+                  >
+                          <ListIcon
+                                  name="square outline"
+                          />
+                          shell_setAppPinned
+                  </ListItem>
+                  <ListItem
+                          className={undefined}
+                          name="shell_setAppVisibility"
+                          onClick={[Function]}
+                  >
+                          <ListIcon
+                                  name="square outline"
+                          />
+                          shell_setAppVisibility
+                  </ListItem>
+                  <ListItem
+                          className={undefined}
+                          name="shell_setMethodPermissions"
+                          onClick={[Function]}
+                  >
+                          <ListIcon
+                                  name="square outline"
+                          />
+                          shell_setMethodPermissions
+                  </ListItem>
+          </List>,
+                "key": "123-dappsEdit-editing-content",
+              },
+              "title": Object {
+                "active": true,
+                "content": <FormattedMessage
+                  defaultMessage="Can write info on dapps"
+                  description="Explanation of the dappsEdit methodGroup permission"
+                  id="dapp.methods.dappsEdit"
+                  values={Object {}}
+          />,
+                "key": "123-dappsEdit-editing-title",
+              },
+            },
+            Object {
+              "content": Object {
+                "active": true,
+                "content": <List
+                  className={undefined}
+          >
+                  <ListItem
+                          className={undefined}
+                          name="parity_accountsInfo"
+                          onClick={[Function]}
+                  >
+                          <ListIcon
+                                  name="square outline"
+                          />
+                          parity_accountsInfo
+                  </ListItem>
+                  <ListItem
+                          className={undefined}
+                          name="parity_allAccountsInfo"
+                          onClick={[Function]}
+                  >
+                          <ListIcon
+                                  name="square outline"
+                          />
+                          parity_allAccountsInfo
+                  </ListItem>
+                  <ListItem
+                          className={undefined}
+                          name="parity_getNewDappsAddresses"
+                          onClick={[Function]}
+                  >
+                          <ListIcon
+                                  name="square outline"
+                          />
+                          parity_getNewDappsAddresses
+                  </ListItem>
+                  <ListItem
+                          className={undefined}
+                          name="parity_getNewDappsDefaultAddress"
+                          onClick={[Function]}
+                  >
+                          <ListIcon
+                                  name="square outline"
+                          />
+                          parity_getNewDappsDefaultAddress
+                  </ListItem>
+                  <ListItem
+                          className={undefined}
+                          name="parity_hardwareAccountsInfo"
+                          onClick={[Function]}
+                  >
+                          <ListIcon
+                                  name="square outline"
+                          />
+                          parity_hardwareAccountsInfo
+                  </ListItem>
+                  <ListItem
+                          className={undefined}
+                          name="parity_lockedHardwareAccountsInfo"
+                          onClick={[Function]}
+                  >
+                          <ListIcon
+                                  name="square outline"
+                          />
+                          parity_lockedHardwareAccountsInfo
+                  </ListItem>
+          </List>,
+                "key": "123-accounts-editing-content",
+              },
+              "title": Object {
+                "active": true,
+                "content": <FormattedMessage
+                  defaultMessage="Can view your Parity accounts"
+                  description="Explanation of the accounts methodGroup permission"
+                  id="dapp.methods.accounts"
+                  values={Object {}}
+          />,
+                "key": "123-accounts-editing-title",
+              },
+            },
+            Object {
+              "content": Object {
+                "active": true,
+                "content": <List
+                  className={undefined}
+          >
+                  <ListItem
+                          className={undefined}
+                          name="parity_generateSecretPhrase"
+                          onClick={[Function]}
+                  >
+                          <ListIcon
+                                  name="square outline"
+                          />
+                          parity_generateSecretPhrase
+                  </ListItem>
+                  <ListItem
+                          className={undefined}
+                          name="parity_importGethAccounts"
+                          onClick={[Function]}
+                  >
+                          <ListIcon
+                                  name="square outline"
+                          />
+                          parity_importGethAccounts
+                  </ListItem>
+                  <ListItem
+                          className={undefined}
+                          name="parity_listGethAccounts"
+                          onClick={[Function]}
+                  >
+                          <ListIcon
+                                  name="square outline"
+                          />
+                          parity_listGethAccounts
+                  </ListItem>
+                  <ListItem
+                          className={undefined}
+                          name="parity_newAccountFromPhrase"
+                          onClick={[Function]}
+                  >
+                          <ListIcon
+                                  name="square outline"
+                          />
+                          parity_newAccountFromPhrase
+                  </ListItem>
+                  <ListItem
+                          className={undefined}
+                          name="parity_newAccountFromSecret"
+                          onClick={[Function]}
+                  >
+                          <ListIcon
+                                  name="square outline"
+                          />
+                          parity_newAccountFromSecret
+                  </ListItem>
+                  <ListItem
+                          className={undefined}
+                          name="parity_newAccountFromWallet"
+                          onClick={[Function]}
+                  >
+                          <ListIcon
+                                  name="square outline"
+                          />
+                          parity_newAccountFromWallet
+                  </ListItem>
+                  <ListItem
+                          className={undefined}
+                          name="parity_phraseToAddress"
+                          onClick={[Function]}
+                  >
+                          <ListIcon
+                                  name="square outline"
+                          />
+                          parity_phraseToAddress
+                  </ListItem>
+          </List>,
+                "key": "123-accountsCreate-editing-content",
+              },
+              "title": Object {
+                "active": true,
+                "content": <FormattedMessage
+                  defaultMessage="Can create new Parity accounts"
+                  description="Explanation of the accountsCreate methodGroup permission"
+                  id="dapp.methods.accountsCreate"
+                  values={Object {}}
+          />,
+                "key": "123-accountsCreate-editing-title",
+              },
+            },
+            Object {
+              "content": Object {
+                "active": true,
+                "content": <List
+                  className={undefined}
+          >
+                  <ListItem
+                          className={undefined}
+                          name="parity_setAccountName"
+                          onClick={[Function]}
+                  >
+                          <ListIcon
+                                  name="square outline"
+                          />
+                          parity_setAccountName
+                  </ListItem>
+                  <ListItem
+                          className={undefined}
+                          name="parity_setAccountMeta"
+                          onClick={[Function]}
+                  >
+                          <ListIcon
+                                  name="square outline"
+                          />
+                          parity_setAccountMeta
+                  </ListItem>
+                  <ListItem
+                          className={undefined}
+                          name="parity_hardwarePinMatrixAck"
+                          onClick={[Function]}
+                  >
+                          <ListIcon
+                                  name="square outline"
+                          />
+                          parity_hardwarePinMatrixAck
+                  </ListItem>
+                  <ListItem
+                          className={undefined}
+                          name="parity_setNewDappsAddresses"
+                          onClick={[Function]}
+                  >
+                          <ListIcon
+                                  name="square outline"
+                          />
+                          parity_setNewDappsAddresses
+                  </ListItem>
+                  <ListItem
+                          className={undefined}
+                          name="parity_setNewDappsDefaultAddress"
+                          onClick={[Function]}
+                  >
+                          <ListIcon
+                                  name="square outline"
+                          />
+                          parity_setNewDappsDefaultAddress
+                  </ListItem>
+          </List>,
+                "key": "123-accountsEdit-editing-content",
+              },
+              "title": Object {
+                "active": true,
+                "content": <FormattedMessage
+                  defaultMessage="Can edit your Parity accounts"
+                  description="Explanation of the accountsEdit methodGroup permission"
+                  id="dapp.methods.accountsEdit"
+                  values={Object {}}
+          />,
+                "key": "123-accountsEdit-editing-title",
+              },
+            },
+            Object {
+              "content": Object {
+                "active": true,
+                "content": <List
+                  className={undefined}
+          >
+                  <ListItem
+                          className={undefined}
+                          name="parity_killAccount"
+                          onClick={[Function]}
+                  >
+                          <ListIcon
+                                  name="square outline"
+                          />
+                          parity_killAccount
+                  </ListItem>
+                  <ListItem
+                          className={undefined}
+                          name="parity_removeAddress"
+                          onClick={[Function]}
+                  >
+                          <ListIcon
+                                  name="square outline"
+                          />
+                          parity_removeAddress
+                  </ListItem>
+          </List>,
+                "key": "123-accountsDelete-editing-content",
+              },
+              "title": Object {
+                "active": true,
+                "content": <FormattedMessage
+                  defaultMessage="Can delete your Parity accounts"
+                  description="Explanation of the accountsDelete methodGroup permission"
+                  id="dapp.methods.accountsDelete"
+                  values={Object {}}
+          />,
+                "key": "123-accountsDelete-editing-title",
+              },
+            },
+            Object {
+              "content": Object {
+                "active": true,
+                "content": <List
+                  className={undefined}
+          >
+                  <ListItem
+                          className={undefined}
+                          name="parity_closeVault"
+                          onClick={[Function]}
+                  >
+                          <ListIcon
+                                  name="square outline"
+                          />
+                          parity_closeVault
+                  </ListItem>
+                  <ListItem
+                          className={undefined}
+                          name="parity_getVaultMeta"
+                          onClick={[Function]}
+                  >
+                          <ListIcon
+                                  name="square outline"
+                          />
+                          parity_getVaultMeta
+                  </ListItem>
+                  <ListItem
+                          className={undefined}
+                          name="parity_listVaults"
+                          onClick={[Function]}
+                  >
+                          <ListIcon
+                                  name="square outline"
+                          />
+                          parity_listVaults
+                  </ListItem>
+                  <ListItem
+                          className={undefined}
+                          name="parity_listOpenedVaults"
+                          onClick={[Function]}
+                  >
+                          <ListIcon
+                                  name="square outline"
+                          />
+                          parity_listOpenedVaults
+                  </ListItem>
+                  <ListItem
+                          className={undefined}
+                          name="parity_openVault"
+                          onClick={[Function]}
+                  >
+                          <ListIcon
+                                  name="square outline"
+                          />
+                          parity_openVault
+                  </ListItem>
+          </List>,
+                "key": "123-vaults-editing-content",
+              },
+              "title": Object {
+                "active": true,
+                "content": <FormattedMessage
+                  defaultMessage="Can get access to your vaults"
+                  description="Explanation of the vaults methodGroup permission"
+                  id="dapp.methods.vaults"
+                  values={Object {}}
+          />,
+                "key": "123-vaults-editing-title",
+              },
+            },
+            Object {
+              "content": Object {
+                "active": true,
+                "content": <List
+                  className={undefined}
+          >
+                  <ListItem
+                          className={undefined}
+                          name="parity_newVault"
+                          onClick={[Function]}
+                  >
+                          <ListIcon
+                                  name="square outline"
+                          />
+                          parity_newVault
+                  </ListItem>
+          </List>,
+                "key": "123-vaultsCreate-editing-content",
+              },
+              "title": Object {
+                "active": true,
+                "content": <FormattedMessage
+                  defaultMessage="Can create new vaults"
+                  description="Explanation of the vaultsCreate methodGroup permission"
+                  id="dapp.methods.vaultsCreate"
+                  values={Object {}}
+          />,
+                "key": "123-vaultsCreate-editing-title",
+              },
+            },
+            Object {
+              "content": Object {
+                "active": true,
+                "content": <List
+                  className={undefined}
+          >
+                  <ListItem
+                          className={undefined}
+                          name="parity_changeVault"
+                          onClick={[Function]}
+                  >
+                          <ListIcon
+                                  name="square outline"
+                          />
+                          parity_changeVault
+                  </ListItem>
+                  <ListItem
+                          className={undefined}
+                          name="parity_changeVaultPassword"
+                          onClick={[Function]}
+                  >
+                          <ListIcon
+                                  name="square outline"
+                          />
+                          parity_changeVaultPassword
+                  </ListItem>
+                  <ListItem
+                          className={undefined}
+                          name="parity_setVaultMeta"
+                          onClick={[Function]}
+                  >
+                          <ListIcon
+                                  name="square outline"
+                          />
+                          parity_setVaultMeta
+                  </ListItem>
+          </List>,
+                "key": "123-vaultsEdit-editing-content",
+              },
+              "title": Object {
+                "active": true,
+                "content": <FormattedMessage
+                  defaultMessage="Can edit your vaults"
+                  description="Explanation of the vaultsEdit methodGroup permission"
+                  id="dapp.methods.vaultsEdit"
+                  values={Object {}}
+          />,
+                "key": "123-vaultsEdit-editing-title",
+              },
+            },
+            Object {
+              "content": Object {
+                "active": true,
+                "content": <List
+                  className={undefined}
+          >
+                  <ListItem
+                          className={undefined}
+                          name="parity_checkRequest"
+                          onClick={[Function]}
+                  >
+                          <ListIcon
+                                  name="square outline"
+                          />
+                          parity_checkRequest
+                  </ListItem>
+                  <ListItem
+                          className={undefined}
+                          name="parity_localTransactions"
+                          onClick={[Function]}
+                  >
+                          <ListIcon
+                                  name="square outline"
+                          />
+                          parity_localTransactions
+                  </ListItem>
+          </List>,
+                "key": "123-signerRequests-editing-content",
+              },
+              "title": Object {
+                "active": true,
+                "content": <FormattedMessage
+                  defaultMessage="Can get access to signer requests"
+                  description="Explanation of the signerRequests methodGroup permission"
+                  id="dapp.methods.signerRequests"
+                  values={Object {}}
+          />,
+                "key": "123-signerRequests-editing-title",
+              },
+            },
+            Object {
+              "content": Object {
+                "active": true,
+                "content": <List
+                  className={undefined}
+          >
+                  <ListItem
+                          className={undefined}
+                          name="parity_confirmRequest"
+                          onClick={[Function]}
+                  >
+                          <ListIcon
+                                  name="square outline"
+                          />
+                          parity_confirmRequest
+                  </ListItem>
+                  <ListItem
+                          className={undefined}
+                          name="parity_confirmRequestRaw"
+                          onClick={[Function]}
+                  >
+                          <ListIcon
+                                  name="square outline"
+                          />
+                          parity_confirmRequestRaw
+                  </ListItem>
+                  <ListItem
+                          className={undefined}
+                          name="parity_rejectRequest"
+                          onClick={[Function]}
+                  >
+                          <ListIcon
+                                  name="square outline"
+                          />
+                          parity_rejectRequest
+                  </ListItem>
+          </List>,
+                "key": "123-signerConfirm-editing-content",
+              },
+              "title": Object {
+                "active": true,
+                "content": <FormattedMessage
+                  defaultMessage="Can confirm or reject requests from the signer"
+                  description="Explanation of the signerConfirm methodGroup permission"
+                  id="dapp.methods.signerConfirm"
+                  values={Object {}}
+          />,
+                "key": "123-signerConfirm-editing-title",
+              },
+            },
+            Object {
+              "content": Object {
+                "active": true,
+                "content": <List
+                  className={undefined}
+          >
+                  <ListItem
+                          className={undefined}
+                          name="parity_hashContent"
+                          onClick={[Function]}
+                  >
+                          <ListIcon
+                                  name="square outline"
+                          />
+                          parity_hashContent
+                  </ListItem>
+                  <ListItem
+                          className={undefined}
+                          name="parity_consensusCapability"
+                          onClick={[Function]}
+                  >
+                          <ListIcon
+                                  name="square outline"
+                          />
+                          parity_consensusCapability
+                  </ListItem>
+                  <ListItem
+                          className={undefined}
+                          name="parity_upgradeReady"
+                          onClick={[Function]}
+                  >
+                          <ListIcon
+                                  name="square outline"
+                          />
+                          parity_upgradeReady
+                  </ListItem>
+                  <ListItem
+                          className={undefined}
+                          name="parity_versionInfo"
+                          onClick={[Function]}
+                  >
+                          <ListIcon
+                                  name="square outline"
+                          />
+                          parity_versionInfo
+                  </ListItem>
+                  <ListItem
+                          className={undefined}
+                          name="parity_wsUrl"
+                          onClick={[Function]}
+                  >
+                          <ListIcon
+                                  name="square outline"
+                          />
+                          parity_wsUrl
+                  </ListItem>
+          </List>,
+                "key": "123-node-editing-content",
+              },
+              "title": Object {
+                "active": true,
+                "content": <FormattedMessage
+                  defaultMessage="Can read info about node"
+                  description="Explanation of the node methodGroup permission"
+                  id="dapp.methods.node"
+                  values={Object {}}
+          />,
+                "key": "123-node-editing-title",
+              },
+            },
+            Object {
+              "content": Object {
+                "active": true,
+                "content": <List
+                  className={undefined}
+          >
+                  <ListItem
+                          className={undefined}
+                          name="parity_executeUpgrade"
+                          onClick={[Function]}
+                  >
+                          <ListIcon
+                                  name="square outline"
+                          />
+                          parity_executeUpgrade
+                  </ListItem>
+          </List>,
+                "key": "123-nodeUpgrade-editing-content",
+              },
+              "title": Object {
+                "active": true,
+                "content": <FormattedMessage
+                  defaultMessage="Can upgrade Parity"
+                  description="Explanation of the nodeUpgrade methodGroup permission"
+                  id="dapp.methods.nodeUpgrade"
+                  values={Object {}}
+          />,
+                "key": "123-nodeUpgrade-editing-title",
+              },
+            },
+          ]
+        }
+      />
+    </CardDescription>
+  </CardContent>
+</Card>
+`;
+
+exports[`should render correctly in viewing mode 1`] = `
+<Card>
+  <CardContent>
+    <Button
+      as="button"
+      basic={true}
+      floated="right"
+      icon="edit"
+      onClick={[Function]}
+      size="mini"
+    />
+    <DappIcon
+      app={
+        Object {
+          "id": "123",
+          "name": "Test",
+        }
+      }
+      className="ui image centered undefined"
+      raised={true}
+      size="small"
+    />
+    <CardHeader>
+      Test
+    </CardHeader>
+    <CardMeta />
+    <CardDescription>
+      <Accordion
+        panels={
+          Array [
+            Object {
+              "content": Object {
+                "content": <List
+                  bulleted={true}
+                  className={undefined}
+          >
+                  <ListItem>
+                          shell_loadApp
+                  </ListItem>
+          </List>,
+                "key": "123-shell-content",
+              },
+              "title": Object {
+                "content": <FormattedMessage
+                  defaultMessage="Can get access to the Shell"
+                  description="Explanation of the shell methodGroup permission"
+                  id="dapp.methods.shell"
+                  values={Object {}}
+          />,
+                "key": "123-shell-title",
+              },
+            },
+          ]
+        }
+      />
+    </CardDescription>
+  </CardContent>
+</Card>
+`;
+
+exports[`should render correctly in viewing mode with no allowed methods 1`] = `
+<Card>
+  <CardContent>
+    <Button
+      as="button"
+      basic={true}
+      floated="right"
+      icon="edit"
+      onClick={[Function]}
+      size="mini"
+    />
+    <DappIcon
+      app={
+        Object {
+          "id": "123",
+          "name": "Test",
+        }
+      }
+      className="ui image centered undefined"
+      raised={true}
+      size="small"
+    />
+    <CardHeader>
+      Test
+    </CardHeader>
+    <CardMeta />
+    <CardDescription>
+      <div>
+        <FormattedMessage
+          defaultMessage="No allowed methods"
+          id="dapps.methods.noAllowedMethods"
+          values={Object {}}
+        />
+      </div>
+    </CardDescription>
+  </CardContent>
+</Card>
+`;
