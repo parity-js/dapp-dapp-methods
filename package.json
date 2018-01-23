@@ -1,7 +1,7 @@
 {
   "name": "@parity/dapp-dapp-methods",
   "description": "Allow setting of dapp permissions on a per method level",
-  "version": "2.0.9",
+  "version": "2.0.10",
   "main": "index.js",
   "author": "Parity Team <admin@parity.io>",
   "maintainers": [],
