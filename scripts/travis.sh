@@ -24,7 +24,7 @@ git config user.email "$COMMIT_AUTHOR_EMAIL"
 git remote set-url origin https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git > /dev/null 2>&1
 git add .
 
-echo "Bumping package version"
+echo "Bumping package version ($TRAVIS_REPO_SLUG)"
 
 npm --no-git-tag-version version
 npm version patch -m "[CI Skip] %s"
@@ -39,7 +39,7 @@ PACKAGE_VERSION=$(cat package.json \
 VERSION="${PACKAGE_VERSION} (${UTCDATE})"
 
 echo "Cloning dist repo"
-DIST_REPO_SLUG="${$TRAVIS_REPO_SLUG/parity-js/js-dist-paritytech}"
+DIST_REPO_SLUG="${TRAVIS_REPO_SLUG/parity-js/js-dist-paritytech}"
 git clone https://github.com/${DIST_REPO_SLUG}.git dist
 cd dist
 git remote set-url origin https://${GH_TOKEN}@github.com/${DIST_REPO_SLUG}.git > /dev/null 2>&1
