@@ -18,13 +18,14 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { shallowToJson } from 'enzyme-to-json';
 import { Button, List } from 'semantic-ui-react';
-import DappsPermissionsStore from '@parity/mobx/lib/dapps/DappsPermissionsStore';
+import DappsPermissionsStore from '@parity/mobx/lib/shell/DappsPermissionsStore';
 
 import { shallowWithIntl, mountWithIntl } from '../setupTests';
 import { DappCard } from './DappCard';
 
 const mockPermissions = { 'shell_loadApp:123': true };
 const mockApi = {
+  pubsub: { parity: { dappsUrl: () => Promise.resolve('foo') } },
   shell: { getMethodPermissions: () => Promise.resolve(mockPermissions) }
 };
 const props = {

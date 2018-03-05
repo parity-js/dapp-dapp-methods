@@ -16,8 +16,8 @@
 
 import React from 'react';
 import { shallowToJson } from 'enzyme-to-json';
-import DappsPermissionsStore from '@parity/mobx/lib/dapps/DappsPermissionsStore';
-import DappsStore from '@parity/mobx/lib/dapps/DappsStore';
+import DappsPermissionsStore from '@parity/mobx/lib/shell/DappsPermissionsStore';
+import DappsStore from '@parity/mobx/lib/shell/DappsStore';
 
 import { shallowWithIntl } from '../setupTests';
 import { App } from './App';
