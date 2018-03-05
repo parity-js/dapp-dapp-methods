@@ -42,6 +42,10 @@
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@parity/jsonrpc/-/jsonrpc-2.1.4.tgz#d64f348e6ae0b24eb995f7002a03e2ade59f5da0"
 
+"@parity/jsonrpc@^2.1.5":
+  version "2.1.5"
+  resolved "https://registry.yarnpkg.com/@parity/jsonrpc/-/jsonrpc-2.1.5.tgz#9d2bedff6e90859dcc56f83c8a31042c4dd44849"
+
 "@parity/ledger@2.1.x", "@parity/ledger@^2.1.2":
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/@parity/ledger/-/ledger-2.1.2.tgz#d7f27b5c6084cda8dc38e1333454a67c752496a0"
@@ -51,18 +55,13 @@
     u2f-api "0.0.9"
     u2f-api-polyfill "0.4.3"
 
-"@parity/mobx@^1.0.3":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@parity/mobx/-/mobx-1.0.4.tgz#2a0f4c0b806d75cc0de0fb67994884a32d0cf3aa"
+"@parity/mobx@1.1.x", "@parity/mobx@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@parity/mobx/-/mobx-1.1.2.tgz#64e1a732f468560fcc236c7af31d1330c5371c8a"
   dependencies:
+    "@parity/jsonrpc" "^2.1.5"
     "@parity/ledger" "^2.1.2"
-    babel-preset-env "^1.6.1"
-
-"@parity/mobx@^1.0.6":
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@parity/mobx/-/mobx-1.0.6.tgz#e8dabb489f225ebdd5475262b7b8c78fcfc3d322"
-  dependencies:
-    "@parity/ledger" "^2.1.2"
+    "@parity/shared" "^2.2.23"
 
 "@parity/shared@2.2.x":
   version "2.2.14"
@@ -83,13 +82,32 @@
     useragent.js "^0.5.6"
     yargs "6.6.0"
 
-"@parity/ui@^3.0.22":
-  version "3.0.22"
-  resolved "https://registry.yarnpkg.com/@parity/ui/-/ui-3.0.22.tgz#4b126fdd5696b97a99db173bf44b038a0c25ef60"
+"@parity/shared@^2.2.23":
+  version "2.2.24"
+  resolved "https://registry.yarnpkg.com/@parity/shared/-/shared-2.2.24.tgz#11bc09bbc3088f20c71004f623fa6dce21012e99"
+  dependencies:
+    "@parity/ledger" "2.1.x"
+    eventemitter3 "^2.0.3"
+    loglevel "1.4.1"
+    mobx "2.6.4"
+    mobx-react "4.0.3"
+    push.js "0.0.11"
+    react-redux "4.4.6"
+    redux "3.6.0"
+    redux-actions "1.1.0"
+    redux-thunk "2.1.0"
+    scryptsy "2.0.0"
+    solc ngotchac/solc-js
+    useragent.js "^0.5.6"
+    yargs "6.6.0"
+
+"@parity/ui@^3.1.4":
+  version "3.1.4"
+  resolved "https://registry.yarnpkg.com/@parity/ui/-/ui-3.1.4.tgz#cd3bec6a2b12a9d916f4d180d0adf36b362e4673"
   dependencies:
     "@parity/api" "2.1.x"
     "@parity/etherscan" "2.1.x"
-    "@parity/mobx" "^1.0.3"
+    "@parity/mobx" "1.1.x"
     "@parity/shared" "2.2.x"
     babel-runtime "^6.26.0"
     bignumber.js "4.1.0"
@@ -950,7 +968,7 @@ babel-plugin-transform-strict-mode@^6.24.1:
     babel-runtime "^6.22.0"
     babel-types "^6.24.1"
 
-babel-preset-env@1.6.1, babel-preset-env@^1.6.1:
+babel-preset-env@1.6.1:
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/babel-preset-env/-/babel-preset-env-1.6.1.tgz#a18b564cc9b9afdf4aae57ae3c1b0d99188e6f48"
   dependencies:
@@ -6793,7 +6811,7 @@ sockjs@0.3.18:
     faye-websocket "^0.10.0"
     uuid "^2.0.2"
 
-solc@ngotchac/solc-js:
+"solc@github:ngotchac/solc-js", solc@ngotchac/solc-js:
   version "0.4.4"
   resolved "https://codeload.github.com/ngotchac/solc-js/tar.gz/04eb38cc3003fba8cb3656653a7941ed36408818"
   dependencies:

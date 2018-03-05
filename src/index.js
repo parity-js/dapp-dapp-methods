@@ -18,8 +18,8 @@ import ReactDOM from 'react-dom';
 import React from 'react';
 import ContextProvider from '@parity/ui/lib/ContextProvider';
 import { Provider as MobxProvider } from 'mobx-react';
-import DappsStore from '@parity/mobx/lib/dapps/DappsStore';
-import DappsPermissionsStore from '@parity/mobx/lib/dapps/DappsPermissionsStore';
+import DappsStore from '@parity/mobx/lib/shell/DappsStore';
+import DappsPermissionsStore from '@parity/mobx/lib/shell/DappsPermissionsStore';
 
 import api from './api';
 import App from './App';

@@ -39,8 +39,8 @@
   },
   "dependencies": {
     "@parity/api": "^2.1.14",
-    "@parity/mobx": "^1.0.6",
-    "@parity/ui": "^3.0.22",
+    "@parity/mobx": "^1.1.2",
+    "@parity/ui": "^3.1.4",
     "mobx": "^3.4.1",
     "mobx-react": "^4.3.5",
     "prop-types": "^15.6.0",
