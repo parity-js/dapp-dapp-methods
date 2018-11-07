@@ -33,20 +33,17 @@ exports[`should render correctly in editing mode 1`] = `
             Object {
               "content": Object {
                 "active": true,
-                "content": <List
-                  className={undefined}
-          >
+                "content": <List>
                   <ListItem
-                          className={undefined}
-                          name="shell_loadApp"
-                          onClick={[Function]}
+                    name="shell_loadApp"
+                    onClick={[Function]}
                   >
-                          <ListIcon
-                                  name="checkmark box"
-                          />
-                          shell_loadApp
+                    <ListIcon
+                      name="checkmark box"
+                    />
+                    shell_loadApp
                   </ListItem>
-          </List>,
+                </List>,
                 "key": "123-shell-editing-content",
               },
               "title": Object {
@@ -56,57 +53,51 @@ exports[`should render correctly in editing mode 1`] = `
                   description="Explanation of the shell methodGroup permission"
                   id="dapp.methods.shell"
                   values={Object {}}
-          />,
+                />,
                 "key": "123-shell-editing-title",
               },
             },
             Object {
               "content": Object {
                 "active": true,
-                "content": <List
-                  className={undefined}
-          >
+                "content": <List>
                   <ListItem
-                          className={undefined}
-                          name="parity_dappsRefresh"
-                          onClick={[Function]}
+                    name="parity_dappsRefresh"
+                    onClick={[Function]}
                   >
-                          <ListIcon
-                                  name="square outline"
-                          />
-                          parity_dappsRefresh
+                    <ListIcon
+                      name="square outline"
+                    />
+                    parity_dappsRefresh
                   </ListItem>
                   <ListItem
-                          className={undefined}
-                          name="parity_dappsUrl"
-                          onClick={[Function]}
+                    name="parity_dappsUrl"
+                    onClick={[Function]}
                   >
-                          <ListIcon
-                                  name="square outline"
-                          />
-                          parity_dappsUrl
+                    <ListIcon
+                      name="square outline"
+                    />
+                    parity_dappsUrl
                   </ListItem>
                   <ListItem
-                          className={undefined}
-                          name="shell_getApps"
-                          onClick={[Function]}
+                    name="shell_getApps"
+                    onClick={[Function]}
                   >
-                          <ListIcon
-                                  name="square outline"
-                          />
-                          shell_getApps
+                    <ListIcon
+                      name="square outline"
+                    />
+                    shell_getApps
                   </ListItem>
                   <ListItem
-                          className={undefined}
-                          name="shell_getMethodPermissions"
-                          onClick={[Function]}
+                    name="shell_getMethodPermissions"
+                    onClick={[Function]}
                   >
-                          <ListIcon
-                                  name="square outline"
-                          />
-                          shell_getMethodPermissions
+                    <ListIcon
+                      name="square outline"
+                    />
+                    shell_getMethodPermissions
                   </ListItem>
-          </List>,
+                </List>,
                 "key": "123-dapps-editing-content",
               },
               "title": Object {
@@ -116,47 +107,42 @@ exports[`should render correctly in editing mode 1`] = `
                   description="Explanation of the dapps methodGroup permission"
                   id="dapp.methods.dapps"
                   values={Object {}}
-          />,
+                />,
                 "key": "123-dapps-editing-title",
               },
             },
             Object {
               "content": Object {
                 "active": true,
-                "content": <List
-                  className={undefined}
-          >
+                "content": <List>
                   <ListItem
-                          className={undefined}
-                          name="shell_setAppPinned"
-                          onClick={[Function]}
+                    name="shell_setAppPinned"
+                    onClick={[Function]}
                   >
-                          <ListIcon
-                                  name="square outline"
-                          />
-                          shell_setAppPinned
+                    <ListIcon
+                      name="square outline"
+                    />
+                    shell_setAppPinned
                   </ListItem>
                   <ListItem
-                          className={undefined}
-                          name="shell_setAppVisibility"
-                          onClick={[Function]}
+                    name="shell_setAppVisibility"
+                    onClick={[Function]}
                   >
-                          <ListIcon
-                                  name="square outline"
-                          />
-                          shell_setAppVisibility
+                    <ListIcon
+                      name="square outline"
+                    />
+                    shell_setAppVisibility
                   </ListItem>
                   <ListItem
-                          className={undefined}
-                          name="shell_setMethodPermissions"
-                          onClick={[Function]}
+                    name="shell_setMethodPermissions"
+                    onClick={[Function]}
                   >
-                          <ListIcon
-                                  name="square outline"
-                          />
-                          shell_setMethodPermissions
+                    <ListIcon
+                      name="square outline"
+                    />
+                    shell_setMethodPermissions
                   </ListItem>
-          </List>,
+                </List>,
                 "key": "123-dappsEdit-editing-content",
               },
               "title": Object {
@@ -166,77 +152,69 @@ exports[`should render correctly in editing mode 1`] = `
                   description="Explanation of the dappsEdit methodGroup permission"
                   id="dapp.methods.dappsEdit"
                   values={Object {}}
-          />,
+                />,
                 "key": "123-dappsEdit-editing-title",
               },
             },
             Object {
               "content": Object {
                 "active": true,
-                "content": <List
-                  className={undefined}
-          >
+                "content": <List>
                   <ListItem
-                          className={undefined}
-                          name="parity_accountsInfo"
-                          onClick={[Function]}
+                    name="parity_accountsInfo"
+                    onClick={[Function]}
                   >
-                          <ListIcon
-                                  name="square outline"
-                          />
-                          parity_accountsInfo
+                    <ListIcon
+                      name="square outline"
+                    />
+                    parity_accountsInfo
                   </ListItem>
                   <ListItem
-                          className={undefined}
-                          name="parity_allAccountsInfo"
-                          onClick={[Function]}
+                    name="parity_allAccountsInfo"
+                    onClick={[Function]}
                   >
-                          <ListIcon
-                                  name="square outline"
-                          />
-                          parity_allAccountsInfo
+                    <ListIcon
+                      name="square outline"
+                    />
+                    parity_allAccountsInfo
                   </ListItem>
                   <ListItem
-                          className={undefined}
-                          name="parity_getNewDappsAddresses"
-                          onClick={[Function]}
+                    name="parity_getNewDappsAddresses"
+                    onClick={[Function]}
                   >
-                          <ListIcon
-                                  name="square outline"
-                          />
-                          parity_getNewDappsAddresses
+                    <ListIcon
+                      name="square outline"
+                    />
+                    parity_getNewDappsAddresses
                   </ListItem>
                   <ListItem
-                          className={undefined}
-                          name="parity_getNewDappsDefaultAddress"
-                          onClick={[Function]}
+                    name="parity_getNewDappsDefaultAddress"
+                    onClick={[Function]}
                   >
-                          <ListIcon
-                                  name="square outline"
-                          />
-                          parity_getNewDappsDefaultAddress
+                    <ListIcon
+                      name="square outline"
+                    />
+                    parity_getNewDappsDefaultAddress
                   </ListItem>
                   <ListItem
-                          className={undefined}
-                          name="parity_hardwareAccountsInfo"
-                          onClick={[Function]}
+                    name="parity_hardwareAccountsInfo"
+                    onClick={[Function]}
                   >
-                          <ListIcon
-                                  name="square outline"
-                          />
-                          parity_hardwareAccountsInfo
+                    <ListIcon
+                      name="square outline"
+                    />
+                    parity_hardwareAccountsInfo
                   </ListItem>
                   <ListItem
-                          className={undefined}
-                          name="parity_lockedHardwareAccountsInfo"
-                          onClick={[Function]}
+                    name="parity_lockedHardwareAccountsInfo"
+                    onClick={[Function]}
                   >
-                          <ListIcon
-                                  name="square outline"
-                          />
-                          parity_lockedHardwareAccountsInfo
+                    <ListIcon
+                      name="square outline"
+                    />
+                    parity_lockedHardwareAccountsInfo
                   </ListItem>
-          </List>,
+                </List>,
                 "key": "123-accounts-editing-content",
               },
               "title": Object {
@@ -246,87 +224,78 @@ exports[`should render correctly in editing mode 1`] = `
                   description="Explanation of the accounts methodGroup permission"
                   id="dapp.methods.accounts"
                   values={Object {}}
-          />,
+                />,
                 "key": "123-accounts-editing-title",
               },
             },
             Object {
               "content": Object {
                 "active": true,
-                "content": <List
-                  className={undefined}
-          >
+                "content": <List>
                   <ListItem
-                          className={undefined}
-                          name="parity_generateSecretPhrase"
-                          onClick={[Function]}
+                    name="parity_generateSecretPhrase"
+                    onClick={[Function]}
                   >
-                          <ListIcon
-                                  name="square outline"
-                          />
-                          parity_generateSecretPhrase
+                    <ListIcon
+                      name="square outline"
+                    />
+                    parity_generateSecretPhrase
                   </ListItem>
                   <ListItem
-                          className={undefined}
-                          name="parity_importGethAccounts"
-                          onClick={[Function]}
+                    name="parity_importGethAccounts"
+                    onClick={[Function]}
                   >
-                          <ListIcon
-                                  name="square outline"
-                          />
-                          parity_importGethAccounts
+                    <ListIcon
+                      name="square outline"
+                    />
+                    parity_importGethAccounts
                   </ListItem>
                   <ListItem
-                          className={undefined}
-                          name="parity_listGethAccounts"
-                          onClick={[Function]}
+                    name="parity_listGethAccounts"
+                    onClick={[Function]}
                   >
-                          <ListIcon
-                                  name="square outline"
-                          />
-                          parity_listGethAccounts
+                    <ListIcon
+                      name="square outline"
+                    />
+                    parity_listGethAccounts
                   </ListItem>
                   <ListItem
-                          className={undefined}
-                          name="parity_newAccountFromPhrase"
-                          onClick={[Function]}
+                    name="parity_newAccountFromPhrase"
+                    onClick={[Function]}
                   >
-                          <ListIcon
-                                  name="square outline"
-                          />
-                          parity_newAccountFromPhrase
+                    <ListIcon
+                      name="square outline"
+                    />
+                    parity_newAccountFromPhrase
                   </ListItem>
                   <ListItem
-                          className={undefined}
-                          name="parity_newAccountFromSecret"
-                          onClick={[Function]}
+                    name="parity_newAccountFromSecret"
+                    onClick={[Function]}
                   >
-                          <ListIcon
-                                  name="square outline"
-                          />
-                          parity_newAccountFromSecret
+                    <ListIcon
+                      name="square outline"
+                    />
+                    parity_newAccountFromSecret
                   </ListItem>
                   <ListItem
-                          className={undefined}
-                          name="parity_newAccountFromWallet"
-                          onClick={[Function]}
+                    name="parity_newAccountFromWallet"
+                    onClick={[Function]}
                   >
-                          <ListIcon
-                                  name="square outline"
-                          />
-                          parity_newAccountFromWallet
+                    <ListIcon
+                      name="square outline"
+                    />
+                    parity_newAccountFromWallet
                   </ListItem>
                   <ListItem
-                          className={undefined}
-                          name="parity_phraseToAddress"
-                          onClick={[Function]}
+                    name="parity_phraseToAddress"
+                    onClick={[Function]}
                   >
-                          <ListIcon
-                                  name="square outline"
-                          />
-                          parity_phraseToAddress
+                    <ListIcon
+                      name="square outline"
+                    />
+                    parity_phraseToAddress
                   </ListItem>
-          </List>,
+                </List>,
                 "key": "123-accountsCreate-editing-content",
               },
               "title": Object {
@@ -336,67 +305,60 @@ exports[`should render correctly in editing mode 1`] = `
                   description="Explanation of the accountsCreate methodGroup permission"
                   id="dapp.methods.accountsCreate"
                   values={Object {}}
-          />,
+                />,
                 "key": "123-accountsCreate-editing-title",
               },
             },
             Object {
               "content": Object {
                 "active": true,
-                "content": <List
-                  className={undefined}
-          >
+                "content": <List>
                   <ListItem
-                          className={undefined}
-                          name="parity_setAccountName"
-                          onClick={[Function]}
+                    name="parity_setAccountName"
+                    onClick={[Function]}
                   >
-                          <ListIcon
-                                  name="square outline"
-                          />
-                          parity_setAccountName
+                    <ListIcon
+                      name="square outline"
+                    />
+                    parity_setAccountName
                   </ListItem>
                   <ListItem
-                          className={undefined}
-                          name="parity_setAccountMeta"
-                          onClick={[Function]}
+                    name="parity_setAccountMeta"
+                    onClick={[Function]}
                   >
-                          <ListIcon
-                                  name="square outline"
-                          />
-                          parity_setAccountMeta
+                    <ListIcon
+                      name="square outline"
+                    />
+                    parity_setAccountMeta
                   </ListItem>
                   <ListItem
-                          className={undefined}
-                          name="parity_hardwarePinMatrixAck"
-                          onClick={[Function]}
+                    name="parity_hardwarePinMatrixAck"
+                    onClick={[Function]}
                   >
-                          <ListIcon
-                                  name="square outline"
-                          />
-                          parity_hardwarePinMatrixAck
+                    <ListIcon
+                      name="square outline"
+                    />
+                    parity_hardwarePinMatrixAck
                   </ListItem>
                   <ListItem
-                          className={undefined}
-                          name="parity_setNewDappsAddresses"
-                          onClick={[Function]}
+                    name="parity_setNewDappsAddresses"
+                    onClick={[Function]}
                   >
-                          <ListIcon
-                                  name="square outline"
-                          />
-                          parity_setNewDappsAddresses
+                    <ListIcon
+                      name="square outline"
+                    />
+                    parity_setNewDappsAddresses
                   </ListItem>
                   <ListItem
-                          className={undefined}
-                          name="parity_setNewDappsDefaultAddress"
-                          onClick={[Function]}
+                    name="parity_setNewDappsDefaultAddress"
+                    onClick={[Function]}
                   >
-                          <ListIcon
-                                  name="square outline"
-                          />
-                          parity_setNewDappsDefaultAddress
+                    <ListIcon
+                      name="square outline"
+                    />
+                    parity_setNewDappsDefaultAddress
                   </ListItem>
-          </List>,
+                </List>,
                 "key": "123-accountsEdit-editing-content",
               },
               "title": Object {
@@ -406,37 +368,33 @@ exports[`should render correctly in editing mode 1`] = `
                   description="Explanation of the accountsEdit methodGroup permission"
                   id="dapp.methods.accountsEdit"
                   values={Object {}}
-          />,
+                />,
                 "key": "123-accountsEdit-editing-title",
               },
             },
             Object {
               "content": Object {
                 "active": true,
-                "content": <List
-                  className={undefined}
-          >
+                "content": <List>
                   <ListItem
-                          className={undefined}
-                          name="parity_killAccount"
-                          onClick={[Function]}
+                    name="parity_killAccount"
+                    onClick={[Function]}
                   >
-                          <ListIcon
-                                  name="square outline"
-                          />
-                          parity_killAccount
+                    <ListIcon
+                      name="square outline"
+                    />
+                    parity_killAccount
                   </ListItem>
                   <ListItem
-                          className={undefined}
-                          name="parity_removeAddress"
-                          onClick={[Function]}
+                    name="parity_removeAddress"
+                    onClick={[Function]}
                   >
-                          <ListIcon
-                                  name="square outline"
-                          />
-                          parity_removeAddress
+                    <ListIcon
+                      name="square outline"
+                    />
+                    parity_removeAddress
                   </ListItem>
-          </List>,
+                </List>,
                 "key": "123-accountsDelete-editing-content",
               },
               "title": Object {
@@ -446,67 +404,60 @@ exports[`should render correctly in editing mode 1`] = `
                   description="Explanation of the accountsDelete methodGroup permission"
                   id="dapp.methods.accountsDelete"
                   values={Object {}}
-          />,
+                />,
                 "key": "123-accountsDelete-editing-title",
               },
             },
             Object {
               "content": Object {
                 "active": true,
-                "content": <List
-                  className={undefined}
-          >
+                "content": <List>
                   <ListItem
-                          className={undefined}
-                          name="parity_closeVault"
-                          onClick={[Function]}
+                    name="parity_closeVault"
+                    onClick={[Function]}
                   >
-                          <ListIcon
-                                  name="square outline"
-                          />
-                          parity_closeVault
+                    <ListIcon
+                      name="square outline"
+                    />
+                    parity_closeVault
                   </ListItem>
                   <ListItem
-                          className={undefined}
-                          name="parity_getVaultMeta"
-                          onClick={[Function]}
+                    name="parity_getVaultMeta"
+                    onClick={[Function]}
                   >
-                          <ListIcon
-                                  name="square outline"
-                          />
-                          parity_getVaultMeta
+                    <ListIcon
+                      name="square outline"
+                    />
+                    parity_getVaultMeta
                   </ListItem>
                   <ListItem
-                          className={undefined}
-                          name="parity_listVaults"
-                          onClick={[Function]}
+                    name="parity_listVaults"
+                    onClick={[Function]}
                   >
-                          <ListIcon
-                                  name="square outline"
-                          />
-                          parity_listVaults
+                    <ListIcon
+                      name="square outline"
+                    />
+                    parity_listVaults
                   </ListItem>
                   <ListItem
-                          className={undefined}
-                          name="parity_listOpenedVaults"
-                          onClick={[Function]}
+                    name="parity_listOpenedVaults"
+                    onClick={[Function]}
                   >
-                          <ListIcon
-                                  name="square outline"
-                          />
-                          parity_listOpenedVaults
+                    <ListIcon
+                      name="square outline"
+                    />
+                    parity_listOpenedVaults
                   </ListItem>
                   <ListItem
-                          className={undefined}
-                          name="parity_openVault"
-                          onClick={[Function]}
+                    name="parity_openVault"
+                    onClick={[Function]}
                   >
-                          <ListIcon
-                                  name="square outline"
-                          />
-                          parity_openVault
+                    <ListIcon
+                      name="square outline"
+                    />
+                    parity_openVault
                   </ListItem>
-          </List>,
+                </List>,
                 "key": "123-vaults-editing-content",
               },
               "title": Object {
@@ -516,27 +467,24 @@ exports[`should render correctly in editing mode 1`] = `
                   description="Explanation of the vaults methodGroup permission"
                   id="dapp.methods.vaults"
                   values={Object {}}
-          />,
+                />,
                 "key": "123-vaults-editing-title",
               },
             },
             Object {
               "content": Object {
                 "active": true,
-                "content": <List
-                  className={undefined}
-          >
+                "content": <List>
                   <ListItem
-                          className={undefined}
-                          name="parity_newVault"
-                          onClick={[Function]}
+                    name="parity_newVault"
+                    onClick={[Function]}
                   >
-                          <ListIcon
-                                  name="square outline"
-                          />
-                          parity_newVault
+                    <ListIcon
+                      name="square outline"
+                    />
+                    parity_newVault
                   </ListItem>
-          </List>,
+                </List>,
                 "key": "123-vaultsCreate-editing-content",
               },
               "title": Object {
@@ -546,47 +494,42 @@ exports[`should render correctly in editing mode 1`] = `
                   description="Explanation of the vaultsCreate methodGroup permission"
                   id="dapp.methods.vaultsCreate"
                   values={Object {}}
-          />,
+                />,
                 "key": "123-vaultsCreate-editing-title",
               },
             },
             Object {
               "content": Object {
                 "active": true,
-                "content": <List
-                  className={undefined}
-          >
+                "content": <List>
                   <ListItem
-                          className={undefined}
-                          name="parity_changeVault"
-                          onClick={[Function]}
+                    name="parity_changeVault"
+                    onClick={[Function]}
                   >
-                          <ListIcon
-                                  name="square outline"
-                          />
-                          parity_changeVault
+                    <ListIcon
+                      name="square outline"
+                    />
+                    parity_changeVault
                   </ListItem>
                   <ListItem
-                          className={undefined}
-                          name="parity_changeVaultPassword"
-                          onClick={[Function]}
+                    name="parity_changeVaultPassword"
+                    onClick={[Function]}
                   >
-                          <ListIcon
-                                  name="square outline"
-                          />
-                          parity_changeVaultPassword
+                    <ListIcon
+                      name="square outline"
+                    />
+                    parity_changeVaultPassword
                   </ListItem>
                   <ListItem
-                          className={undefined}
-                          name="parity_setVaultMeta"
-                          onClick={[Function]}
+                    name="parity_setVaultMeta"
+                    onClick={[Function]}
                   >
-                          <ListIcon
-                                  name="square outline"
-                          />
-                          parity_setVaultMeta
+                    <ListIcon
+                      name="square outline"
+                    />
+                    parity_setVaultMeta
                   </ListItem>
-          </List>,
+                </List>,
                 "key": "123-vaultsEdit-editing-content",
               },
               "title": Object {
@@ -596,37 +539,33 @@ exports[`should render correctly in editing mode 1`] = `
                   description="Explanation of the vaultsEdit methodGroup permission"
                   id="dapp.methods.vaultsEdit"
                   values={Object {}}
-          />,
+                />,
                 "key": "123-vaultsEdit-editing-title",
               },
             },
             Object {
               "content": Object {
                 "active": true,
-                "content": <List
-                  className={undefined}
-          >
+                "content": <List>
                   <ListItem
-                          className={undefined}
-                          name="parity_checkRequest"
-                          onClick={[Function]}
+                    name="parity_checkRequest"
+                    onClick={[Function]}
                   >
-                          <ListIcon
-                                  name="square outline"
-                          />
-                          parity_checkRequest
+                    <ListIcon
+                      name="square outline"
+                    />
+                    parity_checkRequest
                   </ListItem>
                   <ListItem
-                          className={undefined}
-                          name="parity_localTransactions"
-                          onClick={[Function]}
+                    name="parity_localTransactions"
+                    onClick={[Function]}
                   >
-                          <ListIcon
-                                  name="square outline"
-                          />
-                          parity_localTransactions
+                    <ListIcon
+                      name="square outline"
+                    />
+                    parity_localTransactions
                   </ListItem>
-          </List>,
+                </List>,
                 "key": "123-signerRequests-editing-content",
               },
               "title": Object {
@@ -636,47 +575,42 @@ exports[`should render correctly in editing mode 1`] = `
                   description="Explanation of the signerRequests methodGroup permission"
                   id="dapp.methods.signerRequests"
                   values={Object {}}
-          />,
+                />,
                 "key": "123-signerRequests-editing-title",
               },
             },
             Object {
               "content": Object {
                 "active": true,
-                "content": <List
-                  className={undefined}
-          >
+                "content": <List>
                   <ListItem
-                          className={undefined}
-                          name="parity_confirmRequest"
-                          onClick={[Function]}
+                    name="parity_confirmRequest"
+                    onClick={[Function]}
                   >
-                          <ListIcon
-                                  name="square outline"
-                          />
-                          parity_confirmRequest
+                    <ListIcon
+                      name="square outline"
+                    />
+                    parity_confirmRequest
                   </ListItem>
                   <ListItem
-                          className={undefined}
-                          name="parity_confirmRequestRaw"
-                          onClick={[Function]}
+                    name="parity_confirmRequestRaw"
+                    onClick={[Function]}
                   >
-                          <ListIcon
-                                  name="square outline"
-                          />
-                          parity_confirmRequestRaw
+                    <ListIcon
+                      name="square outline"
+                    />
+                    parity_confirmRequestRaw
                   </ListItem>
                   <ListItem
-                          className={undefined}
-                          name="parity_rejectRequest"
-                          onClick={[Function]}
+                    name="parity_rejectRequest"
+                    onClick={[Function]}
                   >
-                          <ListIcon
-                                  name="square outline"
-                          />
-                          parity_rejectRequest
+                    <ListIcon
+                      name="square outline"
+                    />
+                    parity_rejectRequest
                   </ListItem>
-          </List>,
+                </List>,
                 "key": "123-signerConfirm-editing-content",
               },
               "title": Object {
@@ -686,67 +620,60 @@ exports[`should render correctly in editing mode 1`] = `
                   description="Explanation of the signerConfirm methodGroup permission"
                   id="dapp.methods.signerConfirm"
                   values={Object {}}
-          />,
+                />,
                 "key": "123-signerConfirm-editing-title",
               },
             },
             Object {
               "content": Object {
                 "active": true,
-                "content": <List
-                  className={undefined}
-          >
+                "content": <List>
                   <ListItem
-                          className={undefined}
-                          name="parity_hashContent"
-                          onClick={[Function]}
+                    name="parity_hashContent"
+                    onClick={[Function]}
                   >
-                          <ListIcon
-                                  name="square outline"
-                          />
-                          parity_hashContent
+                    <ListIcon
+                      name="square outline"
+                    />
+                    parity_hashContent
                   </ListItem>
                   <ListItem
-                          className={undefined}
-                          name="parity_consensusCapability"
-                          onClick={[Function]}
+                    name="parity_consensusCapability"
+                    onClick={[Function]}
                   >
-                          <ListIcon
-                                  name="square outline"
-                          />
-                          parity_consensusCapability
+                    <ListIcon
+                      name="square outline"
+                    />
+                    parity_consensusCapability
                   </ListItem>
                   <ListItem
-                          className={undefined}
-                          name="parity_upgradeReady"
-                          onClick={[Function]}
+                    name="parity_upgradeReady"
+                    onClick={[Function]}
                   >
-                          <ListIcon
-                                  name="square outline"
-                          />
-                          parity_upgradeReady
+                    <ListIcon
+                      name="square outline"
+                    />
+                    parity_upgradeReady
                   </ListItem>
                   <ListItem
-                          className={undefined}
-                          name="parity_versionInfo"
-                          onClick={[Function]}
+                    name="parity_versionInfo"
+                    onClick={[Function]}
                   >
-                          <ListIcon
-                                  name="square outline"
-                          />
-                          parity_versionInfo
+                    <ListIcon
+                      name="square outline"
+                    />
+                    parity_versionInfo
                   </ListItem>
                   <ListItem
-                          className={undefined}
-                          name="parity_wsUrl"
-                          onClick={[Function]}
+                    name="parity_wsUrl"
+                    onClick={[Function]}
                   >
-                          <ListIcon
-                                  name="square outline"
-                          />
-                          parity_wsUrl
+                    <ListIcon
+                      name="square outline"
+                    />
+                    parity_wsUrl
                   </ListItem>
-          </List>,
+                </List>,
                 "key": "123-node-editing-content",
               },
               "title": Object {
@@ -756,27 +683,24 @@ exports[`should render correctly in editing mode 1`] = `
                   description="Explanation of the node methodGroup permission"
                   id="dapp.methods.node"
                   values={Object {}}
-          />,
+                />,
                 "key": "123-node-editing-title",
               },
             },
             Object {
               "content": Object {
                 "active": true,
-                "content": <List
-                  className={undefined}
-          >
+                "content": <List>
                   <ListItem
-                          className={undefined}
-                          name="parity_executeUpgrade"
-                          onClick={[Function]}
+                    name="parity_executeUpgrade"
+                    onClick={[Function]}
                   >
-                          <ListIcon
-                                  name="square outline"
-                          />
-                          parity_executeUpgrade
+                    <ListIcon
+                      name="square outline"
+                    />
+                    parity_executeUpgrade
                   </ListItem>
-          </List>,
+                </List>,
                 "key": "123-nodeUpgrade-editing-content",
               },
               "title": Object {
@@ -786,7 +710,7 @@ exports[`should render correctly in editing mode 1`] = `
                   description="Explanation of the nodeUpgrade methodGroup permission"
                   id="dapp.methods.nodeUpgrade"
                   values={Object {}}
-          />,
+                />,
                 "key": "123-nodeUpgrade-editing-title",
               },
             },
@@ -832,12 +756,11 @@ exports[`should render correctly in viewing mode 1`] = `
               "content": Object {
                 "content": <List
                   bulleted={true}
-                  className={undefined}
-          >
+                >
                   <ListItem>
-                          shell_loadApp
+                    shell_loadApp
                   </ListItem>
-          </List>,
+                </List>,
                 "key": "123-shell-content",
               },
               "title": Object {
@@ -846,7 +769,7 @@ exports[`should render correctly in viewing mode 1`] = `
                   description="Explanation of the shell methodGroup permission"
                   id="dapp.methods.shell"
                   values={Object {}}
-          />,
+                />,
                 "key": "123-shell-title",
               },
             },
