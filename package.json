@@ -39,7 +39,7 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
-    "@parity/api": "^2.1.24",
+    "@parity/api": "^5.0.1",
     "@parity/mobx": "^1.1.4",
     "@parity/ui": "^3.1.22",
     "mobx": "^3.6.2",
