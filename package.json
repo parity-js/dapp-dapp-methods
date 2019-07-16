@@ -50,7 +50,7 @@
     "react-intl": "^2.9.0",
     "react-scripts": "1.0.17",
     "semantic-ui-css": "^2.4.1",
-    "semantic-ui-react": "^0.87.2"
+    "semantic-ui-react": "^0.87.3"
   },
   "devDependencies": {
     "enzyme": "^3.10.0",
